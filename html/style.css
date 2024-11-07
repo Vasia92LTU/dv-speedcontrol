@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#speed-limit-message {
+  text-align: center;
+  color: #08C098;
+  text-shadow: 0px 0px 2.4px rgba(8, 192, 152, 0.86);
+}
+
+#speed-limit-img {
+  width: 200px;  
+  height: auto;
+}
+
+#speed-limit-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+

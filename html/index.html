@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Limit Notification</title>
+    <style>
+        #speedLimitImage {
+            display: none; 
+            position: absolute;
+            bottom: 0%;
+            right: 0%;
+            width: 400px;
+            height: 800px;
+            background-image: url('speedlimit.png'); 
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 9999;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+        }
+        #speedLimitText {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 12%; 
+    left: 11%; 
+    transform: translateY(-50%); 
+}
+    </style>
+</head>
+<body>
+    <div id="speedLimitImage">
+        <p id="speedLimitText"> 0</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
